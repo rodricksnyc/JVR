@@ -153,6 +153,13 @@ aside {
   color: black;
   font-weight: 900;
 }
+.whiteline {
+  margin-top: 20px;
+  color: #9C9EA0;
+  height: 1px;
+  background-color: #9C9EA0;
+  width: 100%;
+}
 .second-button {
   color: lightgray;
   font-family: 'Advent Pro', sans-serif;
@@ -328,9 +335,3 @@ form {
   margin-bottom: 0px;
   margin-top: 660px;
 }
-.whiteline {
-  margin-top: 20px;
-  color: #9C9EA0;
-  height: 1px;
-  background-color: #9C9EA0;
-  width: 100%;
