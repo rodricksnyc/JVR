@@ -44,7 +44,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
+  margin-top: 50px;
   margin-left: 10px;
 }
 @media screen (min-width: 320px) and (max-width: 767px){
@@ -53,13 +53,12 @@ p {
     }
 }
 .contactform {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 320px;
-  margin-left: 60px;
-  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 400px;
+  margin-left: 0px;
+  width: 40%;
+  margin-top: 0px;
+  margin-bottom: 450px;
 }
 /*.show-hide {
     width: 0;
@@ -128,15 +127,15 @@ aside {
   margin-bottom: 8px;
   margin-left: 8px;
 }
-.photo {
+/*.photo {
   background-image: url('../img/profile.jpg');
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 501px;
-  width: 500px;
+  height: 502px;
+  width: 100%;
 
-}
+}*/
 .dropdown-contents {
   display:none;
   color: black;
@@ -185,7 +184,7 @@ aside {
 }
 h4 {
   font-family: 'Advent Pro', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 100;
   color: lightgray;
   text-align: left;
@@ -198,14 +197,14 @@ h4 {
 }
 h6 {
   font-family: 'Advent Pro', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 100;
   color: lightgray;
   text-align: left;
   margin-top: 4px;
   margin-bottom: 4px;
   text-align: left;
-  margin-left: 6px;
+  margin-left: 0px;
   margin-right: 170px;
 }
 h3 {
@@ -305,7 +304,7 @@ input {
   border: 1px solid black;
   border-radius: 6px;
   height: 30px;
-  width: 340px;
+  width: 330px;
   font-family: 'Advent Pro', sans-serif;
 
 }
@@ -317,13 +316,13 @@ input:last-child {
   font-family: 'Advent Pro', sans-serif;
   font-size: 22px;
   height: 30px;
-  width: 342px;
+  width: 332px;
 
 }
 form {
   margin-left: 3px;
   height: 30px;
-  width: 340px;
+  width: 330px;
 
 }
 .reviews {
