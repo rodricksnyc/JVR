@@ -335,3 +335,7 @@ form {
   margin-bottom: 0px;
   margin-top: 660px;
 }
+.bright {
+  color: white;
+  font-weight: 900;
+}
