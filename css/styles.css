@@ -47,6 +47,11 @@ p {
   margin-top: 0;
   margin-left: 10px;
 }
+@media screen (min-width: 320px) and (max-width: 767px){
+    .contactblock {
+        display: block;
+    }
+}
 .contactform {
   display: flex;
   flex-direction: column;
