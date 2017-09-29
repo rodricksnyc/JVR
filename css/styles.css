@@ -45,7 +45,7 @@ p {
   justify-content: flex-start;
   align-items:flex-start;
   margin-top: 0;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .contactform {
   display: flex;
@@ -129,7 +129,7 @@ aside {
   background-position: center center;
   background-repeat: no-repeat;
   height: 720px;
-  width: 40%;
+  width: 50%;
   margin-top: 20px;
   margin-bottom: 260px;
 }
