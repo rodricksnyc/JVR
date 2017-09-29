@@ -54,6 +54,7 @@ p {
   margin-top: 20px;
   width: 30%;
   margin-bottom: 320px;
+  margin-left: 60px;
 }
 /*.show-hide {
     width: 0;
@@ -180,7 +181,7 @@ aside {
 }
 h4 {
   font-family: 'Advent Pro', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 100;
   color: lightgray;
   text-align: left;
@@ -188,7 +189,8 @@ h4 {
   margin-bottom: 4px;
   text-align: left;
   margin-left: 0px;
-  margin-right: 200px;
+  margin-right: 20px;
+  width: 340px;
 }
 h6 {
   font-family: 'Advent Pro', sans-serif;
@@ -196,7 +198,7 @@ h6 {
   font-weight: 100;
   color: lightgray;
   text-align: left;
-  margin-top: 0px;
+  margin-top: 4px;
   margin-bottom: 4px;
   text-align: left;
   margin-left: 6px;
