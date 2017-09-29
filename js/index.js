@@ -14,5 +14,5 @@ $('#ThisLink').click(function(e) {
     return false;
 });
 
-var contactform =  document.getElementById('secureform');
-contactform.setAttribute('action', '//formspree.io/' + 'rodricksnyc' + '@' + 'gmail' + '.' + 'com');
+// var contactform =  document.getElementById('secureform');
+// contactform.setAttribute('action', '//formspree.io/' + 'rodricksnyc' + '@' + 'gmail' + '.' + 'com');
