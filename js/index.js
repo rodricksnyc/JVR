@@ -13,3 +13,6 @@ $('#ThisLink').click(function(e) {
 
     return false;
 });
+
+var contactform =  document.getElementById('contactform');
+contactform.setAttribute('action', '//formspree.io/' + 'rodricksnyc' + '@' + 'gmail' + '.' + 'com');
