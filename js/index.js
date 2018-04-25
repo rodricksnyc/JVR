@@ -1,15 +1,8 @@
-var preventClick = false;
-
-$('#ThisLink').click(function(e) {
-    $(this)
-       .css('cursor', 'default')
-       .css('text-decoration', 'none')
-
-    if (!preventClick) {
-        $(this).html($(this).html() + ' ');
-    }
-
-    preventClick = true;
-
-    return false;
+$(function() {
+  $('.js-nav a, .js-connect').click(function(e) {
+    e.preventDefault();
+    $('body, html').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 750);
+  });
 });

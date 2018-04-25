@@ -1,59 +1,275 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" >
+
 <head>
-  <title>Joseph Rodricks</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/normalize.css">
+  <meta charset="UTF-8">
+  <title>Joseph V. Rodricks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
-  <link rel="icon" type="image/png" href="img/favicon.jpg">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="img/favicon.jpg">
+
+
 </head>
 
 <body>
-<div class="container">
-  <header class="header">
-    <h1 class="name">Joseph V. Rodricks</h1>
-    <div>
-      <ul class="top">
-        <li class="links"><a href="index.html" id="ThisLink">About</a></li>
-        <li class="links"><a href="books.html">Books</a></li>
-        <li class="links"><a href="contact.html">Contact</a></li>
-        <li class="links">
-          <div class="dropdown">
-           <a href="index.html" id="ThisLink">Publications</a>
-            <ul class="dropdown-contents">
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="https://www.nap.edu/read/13163/chapter/11" target="_blank">Reference Guide on Exposure Science</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="http://www.ramboll-environ.com/news/environ/in%20pursuit%20of%20safety%20one%20hundred%20years%20of%20toxicologiclal%20risk%20assessment" target="_blank">One-Hundred Years of Toxilogical Risk Assessment</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="https://benthamopen.com/ABSTRACT/TOEPIJ-4-3" target="_blank">Leveraging Epidemiology to Improve Risk Assessment</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2840874/" target="_blank">Critical Reviews in Food Science and Nutrition</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="https://www.researchgate.net/publication/6442446_2006_American_College_of_Toxicology_Distinguished_Service_Award_Lecture_Has_Quantitative_Risk_Assessment_Been_of_Benefit_to_the_Science_of_Toxicology" target="_blank">2006 American Board of Toxicology Distinguished Service Award Lecture</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="http://heinonline.org/HOL/LandingPage?handle=hein.journals/jlawp14&div=10&id=&page=" target="_blank">Evaluating Disease Causation in Humans Exposed to Toxic Substances</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="https://ftp.cdc.gov/pub/Documents/OEL/12.%20Niemeier/References/Rodrcks_1987_Federal_agency_significant_risk_RegToxPharm.pdf" target="_blank">Significant Risk Decisions in Federal Regulatory Agencies</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="https://link.springer.com/article/10.1007/BF01530530#page-1" target="_blank">FDA's Ban of the Use Of DES in Meat Production</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="https://link.springer.com/article/10.1007/BF01530530#page-1" target="_blank">FDA's Ban of the Use Of DES in Meat Production</a></button></li>
-              <li class="dropdown-links"><button class="second-button"><a class="small" href="https://www.ncbi.nlm.nih.gov/pubmed/789134" target="_blank">The Occurrence and Control of Mycotoxins and Mycotoxicoses</a></button></li>
-            </ul>
-          </div>
+
+  <div class="wrapper">
+  <header role="header">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
+            <span class="sr-only">Toggle Navigation</span>
+
+            <span class="icon-bar"></span>
+
+            <span class="icon-bar"></span>
+
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#" class="navbar-brand" id="name">Joseph Rodricks</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right js-nav">
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#services">Books</a></li>
+
+            <li><a href="#folio">Publications</a></li>
+
+            <li><a href="#testimonials">Reviews</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- <section id="home" class="sec-main">
+    <h1 class="main-heading">Where creativity happens.</h1>
+  </section> -->
+
+  <section id="about" class="sec-about">
+    <div class="container">
+      <h1>About</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <p>
+  Joseph Rodricks is a founding Principal of <a class="bright" href="http://www.ramboll-environ.com/" target="_blank">RAMBOLL-ENVIRON</a>﻿, a technical consulting firm, and a visiting professor at the Johns Hopkins University Bloomberg School of Public Health. Environ was founded in 1982 by Dr. Rodricks and four other associates, and now has more than 1,000 employees in 20 countries. Dr. Rodricks is an internationally recognized expert in﻿ ﻿<a class="bright" href="https://en.wikipedia.org/wiki/Toxicology" target="_blank">﻿﻿﻿toxicology</a> and ﻿<a class="bright" href="https://en.wikipedia.org/wiki/Risk_assessment" target="_blank">risk analysis﻿.</a> He has consulted for hundreds of manufacturers, government agencies and for the World Health Organization in the evaluation of health risks associated with human exposure to chemical substances of all types. Joseph came to consulting after a 15-year career as a scientist at the US Food and Drug Administration (FDA). He entered the FDA after receiving degrees in chemistry (MIT), biochemistry (University of Maryland) and completing postdoctoral study at the University of California, Berkeley. In his last four years at the FDA, he served as Associate Commissioner for Health Affairs.
+  <br>
+  <br>
+  His experience extends from pharmaceuticals, medical devices, consumer products and foods, to occupational chemicals and environmental contaminants. He has served on the National Research Council’s Board on Environmental Studies and Toxicology, and on 30 boards and committees of the National Academy of Sciences and the Institute of Medicine, including the committees that produced the seminal works <a class="bright" href="https://www.nap.edu/read/366/chapter/1" target="_blank">Risk Assessment in the Federal Government: Managing the Process (1983)</a>, and <a class="bright" href="https://www.nap.edu/catalog/12209/science-and-decisions-advancing-risk-assessment" target="_blank">Science and Decisions–Advancing Risk Assessment (2009).</a> He has nearly 150 scientific publications and has received honorary awards from three professional societies for his contributions to toxicology and risk analysis. He is the author of the widely-used text, ﻿<a class="bright" href="https://www.amazon.com/Calculated-Risks-Toxicity-Chemicals-Environment/dp/0521788781" target="_blank">Calculated Risks</a>﻿, now in its second edition, published by Cambridge University Press, and which was given an award from the American Medical Writer's Association.
+  <br>
+  <br>
+  Dr. Rodricks is also the author of a major work of fiction, <a class="bright" href="http://www.offtelegraph.com/" target="_blank">Off Telegraph: A Novel of Berkeley in the Sixties.</a> The lives of the story's many characters whirl about Berkeley's historic and colorful Telegraph Avenue, gateway to the great campus of the University of California. Off Telegraph will appeal to anyone interested in the real working lives of scientists, the political and cultural turbulence of the 1960's, and a plot that weaves those two worlds together in unexpected and endlessly suspenseful ways.
+  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="sec-services">
+    <div class="container">
+      <h1>Books</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-1">
+          <!-- <i class="fa fa-4x fa-book"></i> -->
+          <img src="img/calculatedrisks.jpg" width="250" height="376">
+          <h1>Calculated Risks</h1>
+
+          <p>Safeguarding economic prosperity, whilst protecting human health and the environment, is at the forefront of scientific and public interest. This book provides a practical and balanced view on toxicology, control, risk assessment and risk management, addressing the interplay between science and public health policy. This revised edition provides a detailed analysis on chemical and by-product exposure, how they enter the body and the suitability of imposed safety limits. Chapters on dose, with particular emphasis on children and vulnerable subpopulations, reproductive and developmental toxicants and toxicity testing are included. With updated and comprehensive coverage of international developments of risk management and safety, this will have broad appeal to researchers and professionals involved in chemical safety and regulation as well as the general reader interested in environmental pollution and public health.</p>
+          <button type="button" class="btn btn-light"><a href="https://www.barnesandnoble.com/w/calculated-risks-joseph-v-rodricks/1100947519?ean=9781107713529" class="class1">Purchase Calculated Risks</a></button>
+        </div>
+
+        <div class="col-sm-4 col-sm-offset-2">
+          <!-- <i class="fa fa-4x fa-book"></i> -->
+          <img src="img/offtelegraph.jpg" width="250" height="377" >
+          <h1>Off Telegraph</h1>
+
+          <p>After a long career in science, which has involved a great deal of science writing for general audiences, Joseph V. Rodricks has turned out a powerful work of fiction. OFF TELEGRAPH takes the reader into a working laboratory and into the minds of working scientists. It also offers the reader a suspenseful story of deception and psychological disintegration, and of a brilliant young scientist’s struggle to hold on to his ideals. PFAFFIDINE — a complex molecule from an exotic plant, with good potential as an anti-cancer drug. Will Getz’s research project involves finding a way to synthesize pfaffidine in the lab. After many failed attempts to complete the synthesis, Will, in a moment of weakness, devises a way to fake it. He is sure his fraudulent act cannot be uncovered, but its consequences soon began to emerge in unexpected ways. Will’s attempts to recover his integrity follow a twisted and tension filled path to a heart-wrenching climax. Will’s painful story plays out in the 1960s in Berkeley, California, center stage for the social and political turmoil of that era. His life intersects with those of many other extraordinary characters who in different ways, some truly insane, hope to remake the world. Among these are the two highly intelligent women in Will's life— the ambitious and sensuous Elaine and the passionate but sensitive Gina —who try to help Will defeat his demons, and by doing so uncover new truths about their own lives. This is a passionate and suspenseful novel that masterfully and intelligently explores the unclear boundaries between science and competing world views, and does so at a very human level.</p>
+          <button type="button" class="btn btn-light"><a href="https://www.barnesandnoble.com/w/off-telegraph-joseph-v-rodricks/1115746309?ean=9781463623951" class="class1">Purchase Off Telegraph</a></button>
+        </div>
+<!--
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-tablet"></i>
+
+          <h2 class="h3">Always Responsive</h2>
+
+          <p>All websites are responsive. They will look great on desktop, tablets and mobile phones too.</p>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section id="folio" class="sec-folio">
+    <div class="container">
+      <h1>Selected Publications</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-md-4">
+            <i class="fa fa-4x fa-book"></i>
+          <a class="small" href="https://www.nap.edu/read/13163/chapter/11" target="_blank"><p>Reference Guide on Exposure Science</p></a>
+        </div>
+
+        <div class="col-md-4">
+          <i class="fa fa-4x fa-book"></i>
+          <a class="small" href="https://www.tandfonline.com/doi/abs/10.1080/10807039.2013.803413" target="_blank"><p>One-Hundred Years of Toxilogical Risk Assessment</p></a>
+        </div>
+
+        <div class="col-md-4">
+        <i class="fa fa-4x fa-book"></i>
+        <a class="small" href="https://benthamopen.com/ABSTRACT/TOEPIJ-4-3" target="_blank"><p>Leveraging Epidemiology to Improve Risk Assessment</p></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+            <i class="fa fa-4x fa-book"></i>
+            <a class="small" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2840874/" target="_blank"><p>Critical Reviews in Food Science and Nutrition</p></a>
+        </div>
+
+        <div class="col-md-4">
+          <i class="fa fa-4x fa-book"></i>
+          <a class="small" href="https://www.researchgate.net/publication/6442446_2006_American_College_of_Toxicology_Distinguished_Service_Award_Lecture_Has_Quantitative_Risk_Assessment_Been_of_Benefit_to_the_Science_of_Toxicology" target="_blank"><p>2006 American Board of Toxicology Distinguished Service Award Lecture</p></a>
+        </div>
+
+        <div class="col-md-4">
+            <i class="fa fa-4x fa-book"></i>
+            <a class="small" href="http://heinonline.org/HOL/LandingPage?handle=hein.journals/jlawp14&div=10&id=&page=" target="_blank"><p>Evaluating Disease Causation in Humans Exposed to Toxic Substances</p></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+            <i class="fa fa-4x fa-book"></i>
+            <a class="small" href="https://ftp.cdc.gov/pub/Documents/OEL/12.%20Niemeier/References/Rodrcks_1987_Federal_agency_significant_risk_RegToxPharm.pdf" target="_blank"><p>Significant Risk Decisions in Federal Regulatory Agencies</p></a>
+        </div>
+
+        <div class="col-md-4">
+          <i class="fa fa-4x fa-book"></i>
+          <a class="small" href="https://link.springer.com/article/10.1007/BF01530530#page-1" target="_blank"><p>FDA's Ban of the Use Of DES in Meat Production</p></a>
+        </div>
+
+        <div class="col-md-4">
+          <i class="fa fa-4x fa-book"></i>
+          <a class="small" href="https://www.ncbi.nlm.nih.gov/pubmed/789134" target="_blank"><p>The Occurrence and Control of Mycotoxins and Mycotoxicoses</p></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="sec-testimonials">
+    <div class="container">
+      <h1>Book Reviews</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm-4">
+          <p class="text-center">"Calculated Risks demystifies the science and policies of risk assessment. It has become a staple in risk education, and is essential reading for students and professionals in public health, environmental protection, and public policy."</p>
+
+          <p class="text-right">&mdash; Thomas A. Burke, Johns Hopkins University</p>
+        </div>
+
+        <div class="col-sm-4">
+          <p class="text-center">"Rodricks' book needs to be read by every medical scientist with any concern for public health issues as well as by environmental and food safety campaigners. It will sharpen debating skills enormously, broaden understanding of risk through chemicals and reveal not a few idiocies. Rodricks tells the scientists, the campaigners and the concerned citizens what they need to know. And they won't even need a dictionary. Dose-response curves, thresholds, environmental epidemiology and drug metabolism are all covered in simple and, at times, humorous terms. Toxicology is delightful - an art as well as science. Rodricks covers both."</p>
+
+          <p class="text-right">&mdash; Simon Wolff, New Scientist Review</p>
+        </div>
+
+        <div class="col-sm-4">
+          <p class="text-center">"... Rodricks has made the difficult topic of risk assessment accessible to the regulatory, policy and scientific communities. Calculated Risks focuses on the science of assessing health risks and provides a framework for understanding this complex topic. It should be required reading for those concerned about environmental pollution and protection of health and environment."</p>
+
+          <p class="text-right">&mdash; Carol J. Henry, American Chemistry Council</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="sec-contact">
+    <div class="container">
+      <h1>Contact Me</h1>
+
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+            <img src="img/profile.jpg" class="img-fluid" alt="Responsive image">
+                <hr />
+          <form class="center-block" action="https://formspree.io/jpwestling@gmail.com" method="post">
+            <div class="form-group">
+              <label class="sr-only" for="inputName">Full name</label>
+
+              <input id="inputName" class="form-control" type="text" name="name" placeholder="Name"/>
+            </div>
+
+            <div class="form-group">
+              <label for="inputMail" class="sr-only">Email Address</label>
+
+              <input id="inputMail" class="form-control" type="email" name="_replyto" placeholder="Email"/>
+            </div>
+
+            <div class="form-group">
+              <label for="inputMessage" class="sr-only">Your Message</label>
+
+              <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8"/></textarea>
+            </div>
+
+            <div class="form-group">
+        <button class="btn btn-light center-block" input type="submit" value="Send" value="Hire me">Contact Me</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <ul class="soc-media-ul">
+        <li>
+          <a href="https://www.linkedin.com/in/joseph-rodricks-28b0461b/" class="fa fa-linkedin" target="_blank"></a>
         </li>
-        <li class="links"><a class="one" href="https://www.linkedin.com/in/joseph-rodricks-28b0461b" class="class1"><img class="social" src="img/linkedin.png" alt="LinkedIn"></a></li>
-        <li class="links"><a class="one" href="https://twitter.com/jvrodricks" class="class1"><img class="social" src="img/twitter.png" alt="Twitter"></a></li>
-        <li class="links"><a class="one" href="https://www.youtube.com/watch?v=58rFsQq-dE4&autoplay=1&app=desktop" class="class1"><img class="social" src="img/youtube.png" alt="YouTube"></a></li>
+
+        <li>
+          <a href="https://www.youtube.com/watch?v=58rFsQq-dE4&autoplay=1&app=desktop" class="fa fa-youtube" target="_blank"></a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/jvrodricks" class="fa fa-twitter" target="_blank"></a>
+        </li>
+
+        <li>
+          <a href="mailto:jrodricks@ramboll.com" class="fa fa-envelope"></a>
+        </li>
       </ul>
     </div>
-  </header>
-<section class="whiteline"></section>
-<article class="mainblock">
-<p>
-Joseph Rodricks is a founding Principal of <a class="bright" href="http://www.ramboll-environ.com/" target="_blank">RAMBOLL-ENVIRON</a>﻿, a technical consulting firm, and a visiting professor at the Johns Hopkins University Bloomberg School of Public Health. Environ was founded in 1982 by Dr. Rodricks and four other associates, and now has more than 1,000 employees in 20 countries. Dr. Rodricks is an internationally recognized expert in﻿ ﻿<a class="bright" href="https://en.wikipedia.org/wiki/Toxicology" target="_blank">﻿﻿﻿toxicology</a> and ﻿<a class="bright" href="https://en.wikipedia.org/wiki/Risk_assessment" target="_blank">risk analysis﻿.</a> He has consulted for hundreds of manufacturers, government agencies and for the World Health Organization in the evaluation of health risks associated with human exposure to chemical substances of all types. Joseph came to consulting after a 15-year career as a scientist at the US Food and Drug Administration (FDA). He entered the FDA after receiving degrees in chemistry (MIT), biochemistry (University of Maryland) and completing postdoctoral study at the University of California, Berkeley. In his last four years at the FDA, he served as Associate Commissioner for Health Affairs.
-<br>
-<br>
-His experience extends from pharmaceuticals, medical devices, consumer products and foods, to occupational chemicals and environmental contaminants. He has served on the National Research Council’s Board on Environmental Studies and Toxicology, and on 30 boards and committees of the National Academy of Sciences and the Institute of Medicine, including the committees that produced the seminal works <a class="bright" href="https://www.nap.edu/read/366/chapter/1" target="_blank">Risk Assessment in the Federal Government: Managing the Process (1983)</a>, and <a class="bright" href="https://www.nap.edu/catalog/12209/science-and-decisions-advancing-risk-assessment" target="_blank">Science and Decisions–Advancing Risk Assessment (2009).</a> He has nearly 150 scientific publications and has received honorary awards from three professional societies for his contributions to toxicology and risk analysis. He is the author of the widely-used text, ﻿<a class="bright" href="https://www.amazon.com/Calculated-Risks-Toxicity-Chemicals-Environment/dp/0521788781" target="_blank">Calculated Risks</a>﻿, now in its second edition, published by Cambridge University Press, and which was given an award from the American Medical Writer's Association.
-<br>
-<br>
-Dr. Rodricks is also the author of a major work of fiction, <a class="bright" href="http://www.offtelegraph.com/" target="_blank">Off Telegraph: A Novel of Berkeley in the Sixties.</a> The lives of the story's many characters whirl about Berkeley's historic and colorful Telegraph Avenue, gateway to the great campus of the University of California. Off Telegraph will appeal to anyone interested in the real working lives of scientists, the political and cultural turbulence of the 1960's, and a plot that weaves those two worlds together in unexpected and endlessly suspenseful ways.
-</p>
-</article>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="js/index.js"></script>
+  </footer>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
+<script  src="js/index.js"></script>
 </body>
+
 </html>
