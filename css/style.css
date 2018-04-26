@@ -258,10 +258,12 @@ footer {
 
 .sec-about a {
   color: red;
+  text-decoration: none;
 }
 
 .small {
   color: red;
+  text-decoration: none;
 }
 
 .class1 {
@@ -274,4 +276,8 @@ footer {
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
+}
+
+a {
+  text-decoration: none;
 }
