@@ -204,13 +204,44 @@ hr {
 }
 
 .sec-services h2 {
-  margin: 1em 0;
+  margin: 0em 0;
 }
 
+.sec-services {
+  margin-top:-6em;
+}
 
 .sec-testimonials {
   background: black;
 }
+
+
+@media (max-width:767px) {
+  .mb-20 {
+    margin-bottom:20px;
+  }
+  .mb-40 {
+    margin-bottom:40px;
+  }
+}
+
+.sec-folio {
+  margin-top:-6em;
+}
+.sec-testimonials {
+  margin-top:-6em;
+}
+
+.sec-contact {
+  margin-top:-6em;
+}
+
+a:hover  {
+  color:#B40404 !important;
+
+}
+
+
 
 
 .sec-contact .form-control:focus {
