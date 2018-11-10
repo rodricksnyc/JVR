@@ -241,8 +241,16 @@ a:hover  {
 
 }
 
-
-
+.form-control {
+  color: black !important;
+}
+input {
+  color: black !important;
+  font-weight:600;
+}
+#inputName {
+  color: black !important;
+}
 
 .sec-contact .form-control:focus {
   border-color: #ad0000;
