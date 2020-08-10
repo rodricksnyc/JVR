@@ -302,11 +302,27 @@ $(document).ready(function($) {
 
 
 
+    // $('.toggleButton').on('click', function() {
+    //
+    //
+    //
+    //   if($(".toggleDiv").is(':visible')) {
+    //     $(".toggleButton").text('Click to view Power Point');
+    //
+    //     $(".toggleDiv").slideUp();
+    //
+    //
+    //   }
+    //
+    //   else if ($(".toggleDiv").is(':hidden')){
+    //     $(".toggleButton").text('Click to hide Power Point')
+    //
+    //     $(".toggleDiv").slideDown();
+    //   }
+    //
+    // });
 
 
-    var file = $(this).data('file'); // the url of the file you want to preview
-
-    $('#previewContainer').html('<iframe src="http://docs.google.com/viewer?url='+file+'&#038;embedded=true" width="400" height="400" style="border: none;"></iframe>')
 
 
 // On RESIZE actions
