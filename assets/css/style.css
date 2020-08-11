@@ -1,88 +1,3 @@
-/*----------------------------------------------------------------------------------------------------------------------
-Project:	    Selfer
-Version:        1.0.0
-
-Default Color   #23b4b3;
-Background Color  #020312;
-
-Body copy:		'Roboto', sans-serif; 14px;
-Headers:		'Roboto', sans-serif;
-
-----------------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------------
-[Table of contents]
-
-A. Basic Styling
-  -- Styling
-
-B. Helpers
-  -- Animations
-  -- Borders
-  -- Colors
-  -- Column Count
-  -- Transitions
-  -- Background
-  -- Headings
-  -- Height
-  -- Margin
-  -- No Gutter
-  -- Opacity
-  -- Overflow
-  -- Padding
-  -- Position
-  -- Shadow
-  -- Shape Mask
-  -- Typography
-  -- Title
-  -- Transitions
-  -- Utilities
-  -- Width
-  -- Z-Index
-
-C. Components
-  -- Block
-  -- Blockquote
-  -- Box
-  -- Buttons
-  -- Card
-  -- Circle
-  -- Forms
-  -- Inputs
-  -- Item
-  -- List
-  -- Map
-  -- Hero
-  -- Navbar
-  -- Page
-  -- Partners
-  -- Plugins
-  -- Price Box
-  -- Progress
-  -- Promo Numbers
-  -- Select
-  -- Slider
-  -- Tabs
-
-D. Plugins Styles
-  -- Magnific Popup
-  -- Owl Carousel
-
-E. Template Specific Elements
-  -- Price Box
-  -- Other
-  -- Story
-
-
-----------------------------------------------------------------------------------------------------------------------*/
-
-/***********************************************************************************************************************
-A. Basic Styling
-***********************************************************************************************************************/
-
-/*-------------------------------------------
-  -- Styling - Colors, Font Size, Font Family
--------------------------------------------*/
 
 body {
     color: #fff;
@@ -126,15 +41,9 @@ h6, .ts-h6 {
     font-size: 1rem;
 }
 
-/* NEW */
-
-/***********************************************************************************************************************
-B. Helpers
-***********************************************************************************************************************/
-
-/*-------------------------------------------
-  -- Animations
--------------------------------------------*/
+.book {
+  max-width:60px;
+}
 
 [data-animate] {
     opacity: 0;
@@ -2967,4 +2876,31 @@ E. Template Specific Elements
   .topMobile {
     margin-top:3em;
   }
+  .ts-link-arrow-effect span {
+    position: relative;
+    transform: translateX(50%);
+    display: inline-block;
+    transition: .6s cubic-bezier(.6, .01, 0, 1);
+}
+.ts-item-header {
+    margin-bottom: 0rem;
+    position: relative;
+}
+.ts-item-header .icon {
+    position: relative;
+    display: inline-block;
+    margin: 0em;
+}
+.ts-block {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    position: relative;
+    margin-bottom: 0rem !important;
+}
+.ts-link-arrow-effect {
+  overflow:visible;
+}
+#about-me, #testimonials {
+  padding-top:0rem !important
+}
 }
