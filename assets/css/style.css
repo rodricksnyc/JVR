@@ -2900,7 +2900,7 @@ E. Template Specific Elements
 .ts-link-arrow-effect {
   overflow:visible;
 }
-#about-me, #testimonials {
+ #testimonials {
   padding-top:0rem !important
 }
 }
