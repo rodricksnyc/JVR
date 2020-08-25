@@ -5,7 +5,7 @@
 }
 
 ul.video-list {
-  display: flexbox;
+
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -15,10 +15,10 @@ ul.video-list {
 li.video {
   flex-grow: 1;
   position: relative;
-  ooverflow: hidden;
-  width: 33.333333333%;
-  width: -webkit-calc(100% / 3);
-  width: calc(100% / 3);
+  overflow: hidden;
+  width: 50;
+  width: -webkit-calc(100% / 2);
+  width: calc(100% / 2);
   border: solid 0.2em transparent;
 }
 li.video a {
