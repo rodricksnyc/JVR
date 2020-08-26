@@ -2996,4 +2996,10 @@ E. Template Specific Elements
  #testimonials {
   padding-top:0rem !important
 }
+#publications p {
+  padding:0em 5em
+}
+.ts-item {
+    padding-bottom: 2rem;
+}
 }
